@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfoli-page...">
+    <meta name="author" content="Mehdi-Ridmani">
+    <title>Mon CV</title>
+    <style>
+        /* Ajoutez votre CSS ici */
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            background-color: #3e4747;
+            color: #fff;
+        }
+
+        .container{
+            width: 80%;
+            margin: auto;
+
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        header img {
+            width: 200px;
+            margin-bottom: 10px;
+        }
+        main{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            
+        }
+
+        section h2 {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        section ul {
+            list-style: none;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="cv" class="container">
+        <header>
+            <img src="./img/profile-pic.png" alt="Ma photo d'identité">
+            <h1>Nom Prénom</h1>
+            <p>Poste recherché</p>
+        </header>
+        <main>
+            <section id="formations">
+                <h2>Formations</h2>
+                <ul>
+                    <li>
+                        <h3>Intitulé de la formation</h3>
+                        <p>Année - Nom de l'établissement</p>
+                        <p>Description de la formation</p>
+                    </li>
+                </ul>
+            </section>
+            <section id="compétences">
+                <h2>Compétences</h2>
+                <ul>
+                    <li>Compétence 1</li>
+                    <li>Compétence 2</li>
+                    <li>Compétence 3</li>
+                </ul>
+            </section>
+            <section id="stages">
+                <h2>Stages</h2>
+                <ul>
+                    <li>
+                        <h3>Intitulé du stage</h3>
+                        <p>Année - Nom de l'entreprise</p>
+                        <p>Description du stage</p>
+                    </li>
+                </ul>
+            </section>
+            <section id="loisirs">
+                <h2>Loisirs</h2>
+                <ul>
+                    <li>Loisir 1</li>
+                    <li>Loisir 2</li>
+                    <li>Loisir 3</li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright © 2023 Nom Prénom</p>
+        </footer>
+    </div>
+</body>
+
+</html>
